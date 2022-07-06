@@ -7,9 +7,7 @@ import Search from "./components/Search";
 function App() {
   const [filterKeywords, setfilterKeywords] = useState([]);
 
-  // const setSearchKeyword = (data) => {
-  //   setfilterKeywords(data);
-  // };
+
 
   const addFilterKeywords = (data) => {
     if (!filterKeywords.includes(data)) {
